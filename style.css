@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfloat{
+    clear: left;
+}
+
+/* --------Header--------- */
+.header{
+    background-image: url(img/header.png);
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.top_header{
+    height: 46px;
+    line-height: 46px;  /*Xác định chiều cao của 1 dòng*/
+    border-bottom: 1px solid #362d3c;
+}
+.top_header .left_topH{
+    float: left;
+    width: 50%;
+    
+}
+.top_header .left_topH p{
+    color: white;
+    font-size: 15px;
+}
+/* ----- */
+.top_header .right_topH{
+    float: left;
+    width: 50%;
+}
+
+.top_header .right_topH .account {
+    list-style: none outside;
+    
+  
+}
+
+.right_topH1 li{
+    float: left;
+}
+.right_topH1 li a{
+    margin: 0px 0px 0px 10px;
+    text-decoration: none;
+    color: #959595;
+}
+.right_topH1 li a:hover{
+    color: #5f29fd;
+}
+.right_topH1 {
+    float: right !important;
+}
+
+/* -----mid header------ */
+.mid_header{
+    padding: 0px;
+    float: left;
+    width: 100%;
+    height: 158px;
+}
+.mid_header .header_main{
+    height: 107px;
+    margin-top: 27px;
+}
+/* ------ */
+.mid_header_left{
+    float: left;
+    width: 25%;
+    
+}
+.mid_header_left .logo1{
+    margin-top: 15px;
+}
+
+/* ----------- */
+.mid_header_mid{
+    float: left;
+    width: 33.33333333%;
+    text-align: center;
+}
+.headertop_search{
+    margin-top: 15px;
+}
+.headertop_search .search_text{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+form input{
+    height: 43px;
+    width: 318px;
+    line-height: 43px;
+    border: none;
+    padding: 0 17px 0 20px;
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+    
+}
+
+.headertop_search form{
+    display: flex;
+}
+
+form button{
+    border: none;
+    height: 43px;
+    width: 48px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #fff;
+}
+form button:hover{
+    cursor: pointer;
+}
+/* -------- */
+.mid_header_right{
+    float: left;
+    width: 41.666666667%;
+}
+.mid_header_right .header_block_item{
+    float: left;
+    height: 35px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    padding-right: 15px;
+}
+.header_block_item .info{
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 7px;
+
+}
+.header_block_item .info h3{
+    color: #fff;
+    font-size: 17px;
+}
+.header_block_item .info p{
+    color: #959595;
+    font-size: 17px;
+}
+/* ----bot header--------- */
+.bot_header{
+    background-image: url(img/bot_header.png);
+    float: left;
+    width: 100%;
+}
+.bot_header .bot_left{
+    width:25%;
+    float: left;
+}
+.product_menu{
+    background-image: -webkit-linear-gradient(-111deg, #b35cff 1%, #6a30f9 100%)!important;
+    padding: 10px;
+    width: 250px;
+    height: 27px;
+    margin-top: 0px;
+}
+.product_menu .product_menu_container{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.product_menu .product_menu_container i{
+    color: #fff;
+    margin: 0 10px;
+}
+.product_menu .product_menu_container h4{
+    color: #fff;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.product .product_list{
+    position: absolute;
+    background: #fff;
+    width: 270px;
+
+}
+.product .product_list ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+.product .product_list ul li a{  
+    text-decoration: none;
+    color: #707070;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.product .product_list ul li a:hover{
+    color: #5f29fd;
+    
+}
+
+
+.bot_header .bot_right{
+    width: 75%;
+    float: left;
+}
+.bot_header .bot_right .bot_right_container{
+    float: right;
+    
+}
+.bot_header .bot_right .bot_right_container ul{
+    display: flex;
+    
+}
+.bot_header .bot_right .bot_right_container ul li{
+    list-style: none;
+    
+}
+.bot_header .bot_right .bot_right_container ul li a{
+    text-decoration: none;
+    padding: 0 13px;
+    font-size: 15px;
+    line-height:50px;
+    color: #707070;
+    
+}
+.bot_header .bot_right .bot_right_container ul li a:hover{
+    color: #5f29fd;
+}
+.contain{
+    width: 100%;
+    height: 700px;
+
+}
+.contain img{
+    max-width: 100%;
+    /* background-size: cover; */
+}
